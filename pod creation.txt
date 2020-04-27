@@ -1,0 +1,8 @@
+aptVersion: v1
+kind: Pod
+metadata: 
+  name: javawebapppod
+  namespace: flipkart
+spec:
+  containername: javawebappcontainer
+  - ports: 80
